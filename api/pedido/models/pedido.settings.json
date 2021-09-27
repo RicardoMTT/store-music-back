@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos",
+  "info": {
+    "name": "pedido",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cliente": {
+      "model": "cliente"
+    },
+    "fecha": {
+      "type": "date"
+    }
+  }
+}

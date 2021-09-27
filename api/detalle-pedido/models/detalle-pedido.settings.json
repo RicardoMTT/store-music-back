@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalle_pedidos",
+  "info": {
+    "name": "detalle-pedido",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "producto": {
+      "model": "producto"
+    },
+    "pedido": {
+      "model": "pedido"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}
